@@ -4,7 +4,7 @@ jobs:
   job-name2:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "this is pen"
+      - run: echo "this is pen pen"
       - uses: actions/checkout@v2
       - run: ls -al
       - run: cd .github/workflows/
