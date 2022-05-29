@@ -1,0 +1,12 @@
+name: learn-github-action2
+on: [push]
+jobs:
+  job-name2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "this is pen"
+      - uses: actions/checkout@v2
+      - run: |
+        ls -al
+        cd .github/workflows/
+        ls -al
